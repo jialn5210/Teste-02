@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function pair_numbers() {
+            for (let i = 1; i <= 100; i++) {
+                if (i % 3 == 0 && i%5!=0) {
+                    alert(i + " Foo");
+                }
+                if(i%5==0 && i%3!=0){
+                    alert(i + " Bar");
+                }
+                if(i%3==0 && i%5==0)
+                {
+                    alert(i + " FooBar");
+                }
+            }
+        }
+        pair_numbers();
+    </script>
+</body>
+
+</html>
