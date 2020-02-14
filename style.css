@@ -1,0 +1,40 @@
+footer{
+        
+        background-color: #ccaa66;
+        color: #330000;
+        
+        text-align: center;
+        height: 20vh;
+    
+}
+header{
+    display: flex;
+        justify-content: center;
+        height: 20vh;
+        color: #330000;
+        background-color: #ccaa66;
+}
+main{
+    display: flex;
+        justify-content: center;
+        height: 60vh;
+}
+
+nav{
+    background-color: #e8d882;
+    display: flex;
+    flex-direction: column;
+    line-height: 35px;
+    
+    width: 20vh;
+
+}
+article{
+    background-color: #f1e8b0;
+    
+    width: 80vh;
+}
+article img{
+    display: flex;
+    justify-content: center;
+}
